@@ -8,7 +8,7 @@ request (with details) that is routed to another user to approve or deny.
 - [Included Workflows](#included-workflows)
 - [Setup](#setup)
   - [Install the Slack CLI](#install-the-slack-cli)
-  - [Clone the Sample App](#clone-the-sample-app)
+  - [Clone the Repository](#clone-the-repository)
 - [Running Your Project Locally](#running-your-project-locally)
 - [Creating Triggers](#creating-triggers)
 - [Datastores](#datastores)
@@ -38,16 +38,16 @@ To use this sample, you need to install and configure the Slack CLI.
 Step-by-step instructions can be found in our
 [Quickstart Guide](https://api.slack.com/automation/quickstart).
 
-### Clone the Sample App
+### Clone the Repository
 
 Start by cloning this repository:
 
 ```zsh
 # Clone this project onto your machine
-$ slack create my-app -t slack-samples/deno-request-time-off
+$ git clone https://github.com/vedanivas/SlackRequestTimeOff.git
 
 # Change into the project directory
-$ cd my-app
+$ cd SlackRequestTimeOff
 ```
 
 ## Running Your Project Locally
