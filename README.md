@@ -16,7 +16,6 @@ request (with details) that is routed to another user to approve or deny.
 - [Deploying Your App](#deploying-your-app)
 - [Viewing Activity Logs](#viewing-activity-logs)
 - [Project Structure](#project-structure)
-- [Resources](#resources)
 
 ---
 
@@ -193,11 +192,3 @@ configuration. This file defines attributes like app name and description.
 
 Used by the CLI to interact with the project's SDK dependencies. It contains
 script hooks that are executed by the CLI and implemented by the SDK.
-
-## Resources
-
-To learn more about developing automations on Slack, visit the following:
-
-- [Automation Overview](https://api.slack.com/automation)
-- [CLI Quick Reference](https://api.slack.com/automation/cli/quick-reference)
-- [Samples and Templates](https://api.slack.com/automation/samples)
